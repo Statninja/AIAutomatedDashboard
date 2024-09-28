@@ -1,7 +1,7 @@
 # AIAutomatedDashboard
 AI Powered Dashboard - Do All Data Analysis Easily (no code required)
 
-Here’s a detailed README for this Streamlit dashboard that outlines the functionalities, navigation instructions, and descriptions of buttons and pages:
+Here’s a detailed README for this Streamlit dashboard that outlines the functionalities, navigation instructions, and descriptions of buttons and pages.
 
 Overview
 This dashboard is designed for comprehensive data cleaning, visualization, and analysis, tailored for users, especially beginners in data analysis. It incorporates an intuitive user interface, dynamic visualizations, and interactive analysis features to enhance user experience and understanding.
