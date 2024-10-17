@@ -1,8 +1,9 @@
-# Data Analysis Dashboard README 🚀
+# AI ML Dashboard README 🚀
 
 ## Overview
 This dashboard is designed for comprehensive data cleaning, visualization, and analysis, tailored for users, especially beginners in data analysis. It incorporates an intuitive user interface, dynamic visualizations, and interactive analysis features to enhance user experience and understanding.
 
+[AI ML Dashboard](https://aiautomateddashboard-agjbvxh76gaqhajpmngphk.streamlit.app/)
 ---
 
 ## Key Functionalities
