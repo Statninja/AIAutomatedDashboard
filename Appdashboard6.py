@@ -11,74 +11,43 @@ from sklearn.cluster import KMeans
 st.markdown(
     """
     <style>
-    /* Set the background of the entire page to dark blue-gray */
     body {
         background-color: #2e3a47; /* Dark blue-gray */
-        color:  #00020d; /* Light gray for text on the body */
+        color: #e1e1e1; /* Light gray/white for text */
         font-family: 'Arial', sans-serif;
     }
-    
-    /* Style for the buttons */
     .stButton>button {
-        background-color: #444; /* Dark gray background for buttons */
-        border: 2px solid #00a8cc; /* Soft cyan border around buttons */
-        border-radius: 10px; /* Rounded corners for buttons */
-        color: #e1e1e1; /* Light gray for button text */
+        background-color: #444; /* Dark gray for buttons */
+        border: 2px solid #00a8cc; /* Soft cyan border */
+        border-radius: 10px;
+        color: #e1e1e1; /* Light gray text */
         font-size: 20px;
         padding: 15px 30px;
         margin: 10px;
     }
-    
-    /* Style for the hover effect on buttons */
     .stButton>button:hover {
-        background-color: #00a8cc; /* Soft cyan background when hovering */
-        color: #2e3a47; /* Dark blue-gray text color when hovering */
+        background-color: #00a8cc; /* Soft cyan on hover */
+        color: #2e3a47; /* Dark blue-gray text on hover */
     }
-
-    /* Style for data frames (tables) */
     .stDataFrame {
         background-color: #1c1c1c; /* Very dark background for tables */
-        color: #e1e1e1; /* Light gray text for table content */
-        border: 1px solid #00a8cc; /* Soft cyan border around tables */
+        color: #e1e1e1; /* Light gray text */
+        border: 1px solid #00a8cc; /* Soft cyan border for tables */
     }
-    
-    /* Style for radio buttons container */
     .stRadio>div {
-        background-color: #444; /* Dark gray background for radio buttons */
-        border-radius: 10px; /* Rounded corners for radio buttons */
+        background-color: #444;
+        border-radius: 10px;
         padding: 10px;
-        color: #e1e1e1; /* Light gray text inside radio buttons */
+        color: #e1e1e1; /* Light text for radio buttons */
     }
-    
-    /* Hover effect for radio buttons */
     .stRadio>div:hover {
-        background-color: #00a8cc; /* Soft cyan background when hovering */
-        color: #2e3a47; /* Dark blue-gray text when hovering */
-    }
-    
-    /* Ensure text is always light gray across different content */
-    .stText, .stMarkdown, .stTable, .stDataFrame, .stPlotlyChart, .stAltairChart, 
-    .stVegaLiteChart, .stArrowVegaLiteChart, .stDeckGlJsonChart, .stException {
-        color: #e1e1e1 !important; /* Light gray text */
-    }
-    
-    /* Ensure headings are light gray */
-    h1, h2, h3, h4, h5, h6 {
-        color: #e1e1e1 !important; /* Light gray headings */
-    }
-    
-    /* Paragraph text in light gray */
-    p {
-        color: #e1e1e1 !important; /* Light gray paragraphs */
-    }
-    
-    /* Additional common elements, all set to light gray */
-    div, span, label {
-        color: #e1e1e1 !important; /* Light gray for general text elements */
+        background-color: #00a8cc; /* Soft cyan hover for radio */
+        color: #2e3a47; /* Dark blue-gray text */
     }
     </style>
     """, unsafe_allow_html=True
 )
+
 
 
 # Function to propose cleaning steps and add messages
