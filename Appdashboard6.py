@@ -132,14 +132,18 @@ def app():
     col1, col2 = st.columns(2)
     col3, col4 = st.columns(2)
     
-    if col1.button("1. Data Cleaning"):
-        st.session_state['nav'] = "Data Cleaning"
-    if col2.button("2. Data Visualization"):
-        st.session_state['nav'] = "Data Visualization"
-    if col3.button("3. Data Analysis"):
-        st.session_state['nav'] = "Data Analysis"
-    if col4.button("4. Data Prediction"):
-        st.session_state['nav'] = "Data Prediction"
+if col1.button("1. Data Cleaning"):
+    print("1. Data Cleaning button clicked")
+    st.session_state['nav'] = "Data Cleaning"
+if col2.button("2. Data Visualization"):
+    print("2. Data Visualization button clicked")
+    st.session_state['nav'] = "Data Visualization"
+if col3.button("3. Data Analysis"):
+    print("3. Data Analysis button clicked")
+    st.session_state['nav'] = "Data Analysis"
+if col4.button("4. Data Prediction"):
+    print("4. Data Prediction button clicked")
+    st.session_state['nav'] = "Data Prediction"
     
     # Data Cleaning Tab
     if 'nav' in st.session_state and st.session_state['nav'] == "Data Cleaning":
