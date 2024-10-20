@@ -11,40 +11,39 @@ from sklearn.cluster import KMeans
 # CSS for futuristic design
 st.markdown(
     """
-   """
     <style>
     body {
-        background-color: #2e3a47; /* Dark blue-gray */
-        color: #e1e1e1; /* Light gray/white for text */
+        background-color: #2e3a47;
+        color: #e1e1e1;
         font-family: 'Arial', sans-serif;
     }
     .stButton>button {
-        background-color: #444; /* Dark gray for buttons */
-        border: 2px solid #00a8cc; /* Soft cyan border */
+        background-color: #444;
+        border: 2px solid #00a8cc;
         border-radius: 10px;
-        color: #e1e1e1; /* Light gray text */
+        color: #e1e1e1;
         font-size: 20px;
         padding: 15px 30px;
         margin: 10px;
     }
     .stButton>button:hover {
-        background-color: #00a8cc; /* Soft cyan on hover */
-        color: #2e3a47; /* Dark blue-gray text on hover */
+        background-color: #00a8cc;
+        color: #2e3a47;
     }
     .stDataFrame {
-        background-color: #1c1c1c; /* Very dark background for tables */
-        color: #e1e1e1; /* Light gray text */
-        border: 1px solid #00a8cc; /* Soft cyan border for tables */
+        background-color: #1c1c1c;
+        color: #e1e1e1;
+        border: 1px solid #00a8cc;
     }
     .stRadio>div {
         background-color: #444;
         border-radius: 10px;
         padding: 10px;
-        color: #e1e1e1; /* Light text for radio buttons */
+        color: #e1e1e1;
     }
     .stRadio>div:hover {
-        background-color: #00a8cc; /* Soft cyan hover for radio */
-        color: #2e3a47; /* Dark blue-gray text */
+        background-color: #00a8cc;
+        color: #2e3a47;
     }
     </style>
     """, unsafe_allow_html=True
