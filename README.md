@@ -5,7 +5,7 @@ This dashboard is designed for comprehensive data cleaning, visualization, and a
 
 
 
-[AI ML Dashboard](https://aiautomateddashboard-agjbvxh76gaqhajpmngphk.streamlit.app/)
+[AI ML Dashboard](https://aiautomateddashboard-nenkmx3cxqk6rvx3wztnv4.streamlit.app/)
 
 ---
 
