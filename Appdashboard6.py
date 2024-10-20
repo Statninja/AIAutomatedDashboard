@@ -127,7 +127,7 @@ def app():
     
     # Home - Big Buttons Navigation
     st.write("## Navigate Through Stages of Data Analysis")
-    st.write("### **Please navigate sequentially.**")
+    st.write("### **1. Data Cleaning 2. Data Visualization 3. Data analysis, 4. Data Prediction.**")
 
     col1, col2 = st.columns(2)
     col3, col4 = st.columns(2)
