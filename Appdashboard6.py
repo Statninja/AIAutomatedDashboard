@@ -8,7 +8,6 @@ from sklearn.linear_model import LinearRegression, LogisticRegression
 from sklearn.svm import SVC
 from sklearn.cluster import KMeans
 
-# CSS for futuristic design
 st.markdown(
     """
     <style>
@@ -44,6 +43,10 @@ st.markdown(
     .stRadio>div:hover {
         background-color: #00a8cc;
         color: #2e3a47;
+    }
+    /* Ensuring text color for all content inside visualization panels */
+    .stText, .stMarkdown, .stTable, .stDataFrame, .stPlotlyChart {
+        color: #e1e1e1 !important; /* Light gray text */
     }
     </style>
     """, unsafe_allow_html=True
