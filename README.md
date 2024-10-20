@@ -3,12 +3,17 @@
 ## Overview
 This dashboard is designed for comprehensive data cleaning, visualization, and analysis, tailored for users, especially beginners in data analysis. It incorporates an intuitive user interface, dynamic visualizations, and interactive analysis features to enhance user experience and understanding.
 
+
+
 [AI ML Dashboard](https://aiautomateddashboard-agjbvxh76gaqhajpmngphk.streamlit.app/)
+
 ---
 
 ## Key Functionalities
 
 ### 1. Data Cleaning 🧹
+[Data Cleaning Dashboard](https://aiautomateddashboard-sskkctshybxvuvymnsnptl.streamlit.app/)
+
 - **Upload a Dataset**: Users can upload a CSV file for analysis. 📂
   
 - **Cleaning Steps**: Users can select specific cleaning steps:
@@ -20,6 +25,8 @@ This dashboard is designed for comprehensive data cleaning, visualization, and a
 ---
 
 ### 2. Data Visualization 📊
+
+[Data Cleaning Dashboard](https://aiautomateddashboard-p3kcyuegh7wi58ah8tn7ob.streamlit.app/)
 - **Visualization Types**: Users can choose from various types of visualizations, including:
   - Histogram
   - Correlation Heatmap
@@ -40,6 +47,9 @@ This dashboard is designed for comprehensive data cleaning, visualization, and a
 ---
 
 ### 3. Data Analysis 📈
+
+[Data Cleaning Dashboard](https://aiautomateddashboard-7nx4omfbawfczaiaqhzggk.streamlit.app/)
+
 - **Predictive Analysis**: Users can apply different models (Linear Regression, SVM, Clustering) to the cleaned dataset. 🤖
 
 - **Model Visualizations**: Users can visualize results from the applied models, including displaying regression lines and SVM hyperplanes. 📉
@@ -47,8 +57,6 @@ This dashboard is designed for comprehensive data cleaning, visualization, and a
 ---
 
 ### 4. User Interface Enhancements 🌟
-- **Dark Theme**: The dashboard features a dark metallic background for a modern look. 🌙
-
 - **Big Buttons**: Navigation buttons are large and easily accessible. 🔘
 
 - **Sequential Navigation**: Users are guided to navigate through the pages in a specific order. 📜
