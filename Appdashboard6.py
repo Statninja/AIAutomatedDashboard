@@ -14,7 +14,7 @@ st.markdown(
     /* Set the background of the entire page to dark blue-gray */
     body {
         background-color: #2e3a47; /* Dark blue-gray */
-        color:  #2e3a47; /* Light gray for text on the body */
+        color:  #00020d; /* Light gray for text on the body */
         font-family: 'Arial', sans-serif;
     }
     
