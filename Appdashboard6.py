@@ -123,7 +123,7 @@ def apply_model(df, model_type, target_column, x_variable):
 
 # Main App
 def app():
-    st.title("Futuristic Data Analysis Dashboard")
+    st.title("Machine Learning Analysis Dashboard")
     
     # Home - Big Buttons Navigation
     st.write("## Navigate Through Stages of Data Analysis")
